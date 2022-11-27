@@ -10,6 +10,3 @@ module "vpc" {
 # Always the source attribute in terraform module can not be parameterized
 
 # if it can not be handled or parameterized the source, how are we going to tell, fetch from x brand and when branches are dynamic
-variable "PUBLIC_SUBNET_CIDR" {}
-variable "PRIVATE_SUBNET_CIDR" {}
-variable "ENV" {}
