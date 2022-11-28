@@ -14,12 +14,12 @@ output "PRIVATE_SUBNET_CIDR" {
     value = module.vpc.PRIVATE_SUBNET_CIDR
 }
 
-output "PUBLIC_SUBNET_ID" {
+output "PUBLIC_SUBNET_IDS" {
     value = module.vpc.PUBLIC_SUBNET_ID
 
 }
 
-output "PRIVATE_SUBNET_ID" {
+output "PRIVATE_SUBNET_IDS" {
     value = module.vpc.PRIVATE_SUBNET_ID
 }
 
